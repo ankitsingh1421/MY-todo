@@ -40,7 +40,7 @@ export const filterTodos = (filter) => ({
   payload: { filter },
 });
 
-export const markAllCompleted = () => ({
+export const markAllCompleted = (chnaged) => ({
   type: MARK_ALL_COMPLETED,
 });
 
